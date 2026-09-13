@@ -29,8 +29,8 @@ public class Character {
 
     public static class Builder {
         private String characterClass;
-        private int level;
-        private int healthPoints;
+        private int level = 1;
+        private int healthPoints = 100;
         private String weapon;
 
         public Builder setCharacterClass(String characterClass){
