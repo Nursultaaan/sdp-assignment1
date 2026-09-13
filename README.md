@@ -1,4 +1,3 @@
-Project Overview
 This repository contains a Java Builder Design Pattern for a game character
 
 Project Structure
