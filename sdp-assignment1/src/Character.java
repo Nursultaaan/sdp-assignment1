@@ -28,10 +28,10 @@ public class Character {
     }
 
     public static class Builder {
-        private String characterClass;
+        private String characterClass = "Melee";
         private int level = 1;
         private int healthPoints = 100;
-        private String weapon;
+        private String weapon = "Sword";
 
         public Builder setCharacterClass(String characterClass){
             this.characterClass = characterClass;
