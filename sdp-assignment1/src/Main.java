@@ -5,7 +5,7 @@ public class Main {
 
         Character character = new Character.Builder()
                 .setCharacterClass("Light")
-                .setLevel(25)
+                .setLevel(10)
                 .setHealthPoints(100)
                 .setWeapon("Sword")
                 .build();

@@ -53,9 +53,16 @@ public class Character {
             return this;
         }
 
-        public Character build(){
-            return new Character(this);
+        public Character build() {
+            if (this.level < 1) {
+                throw new IllegalStateException("Character level must be greater than 0");
+            }
+            if (this.healthPoints <= 0) {
+                throw new IllegalStateException("HP must be greater than 0");
+            }
+            {
+                return new Character(this);
+            }
         }
-
     }
 }
