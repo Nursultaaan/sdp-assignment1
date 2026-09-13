@@ -1,5 +1,5 @@
 public class CharacterDirector {
-    
+
     public Character buildMage(Character.Builder builder) {
         return builder.setCharacterClass("Mage")
                 .setLevel(12)
